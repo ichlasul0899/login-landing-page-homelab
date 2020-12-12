@@ -1,0 +1,59 @@
+body {
+  /* background-color: aqua; */
+  height: 100%;
+}
+
+.recoveryLink{
+  color: rgb(114, 74, 0);
+}
+
+.myTitle{
+  color: aqua;
+}
+
+.myParagraf{
+  text-decoration: none;
+}
+
+.myContent{
+  display: flex;
+  align-items: center;
+}
+
+.containerInput{
+  background-color: rgb(223, 166, 119);
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+.myInput{
+  background:none;
+  border:none
+}
+
+a{
+  text-decoration: none;
+}
+
+.myLoginFormBtn{
+  border: none;
+  padding: 18px 20px;
+  border-radius: 20px;
+  width: 100%;
+  margin-top: 40px;
+  background-color: rgb(253, 146, 57);
+}
+
+.kotak{
+  width: 60px;
+  height: 60px;
+  /* border: 2px solid yellow; */
+  border-radius: 10px;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  color: aqua;
+  border: 2px solid yellow;
+  padding: 10px;
+}
+
