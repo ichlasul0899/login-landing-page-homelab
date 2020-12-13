@@ -1,18 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;700&display=swap');
+
+:root{
+    --primary-color: #ff9f31;
+    --accent-color: #fff2d7;
+    --accent-color2: #f6f1e9;
+    --base-font-size: 12px;
+}
+
+/* .site-header{
+    background-color: var(--primary-color);
+}
+.fab{
+    background-color: var(--accent-color);
+} */
+
+
 body {
   /* background-color: aqua; */
   height: 100%;
+  background: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+html{
+  background: url("bg.png") no-repeat center center fixed;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.btn {
+  color: var(--primary-color);
+}
+.btn-masuk{
+  background-color: #ffffff;
+  box-shadow: 6px 6px 50px #75757529;
+  border-radius: 26px;
+  opacity: 1;
+  padding: 10px 20px;
+  margin-right: 20px;
 }
 
 .recoveryLink{
   color: rgb(114, 74, 0);
 }
 
-.myTitle{
-  color: aqua;
+.myjudul{
+  color: black;
+  font-size: 62px;
+  font-weight: bold;
 }
 
 .myParagraf{
   text-decoration: none;
+  font-size: 1.5em;
 }
 
 .myContent{
@@ -20,15 +62,26 @@ body {
   align-items: center;
 }
 
+.nav-item{
+  margin-right: 40px;
+  color: black;
+  text-transform: capitalize;
+}
+
 .containerInput{
-  background-color: rgb(223, 166, 119);
+  background-color: var(--accent-color2);
+
   padding: 10px 20px;
   border-radius: 20px;
 }
 
+.link-register{
+  color: var(--primary-color);
+}
+
 .myInput{
   background:none;
-  border:none
+  border:none;
 }
 
 a{
@@ -41,19 +94,26 @@ a{
   border-radius: 20px;
   width: 100%;
   margin-top: 40px;
-  background-color: rgb(253, 146, 57);
+  background-color: var(--primary-color);
+  color: #ffffff;
 }
 
 .kotak{
   width: 60px;
   height: 60px;
+  border: 1px solid #AAAAAA;
+border-radius: 10px;
   /* border: 2px solid yellow; */
-  border-radius: 10px;
   justify-content: center;
   align-content: center;
   text-align: center;
   color: aqua;
-  border: 2px solid yellow;
   padding: 10px;
+}
+
+.kotak:hover{
+  border-color: #ffffff;
+  background-color: #ffffff;
+  box-shadow: -6px 15px 50px #00000029;
 }
 
